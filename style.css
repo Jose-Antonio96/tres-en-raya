@@ -17,12 +17,21 @@ button{
     height: 200px;
 }
 
+body{
+    align-items: center;
+    justify-content: center;
+}
 .menuGame{
-    align-self: center;
+    align-items: center;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: 600px;
+    height: 600px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0; 
+    bottom: 0;
     margin: auto;
-    
 
 }
