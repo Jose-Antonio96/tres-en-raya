@@ -6,6 +6,23 @@
     height: 100%;
     text-align: center;
     background-color: grey;
-    color: white;
+    color: yellow;
     visibility: visible;
+    font-size: 25px;
+    font-style: italic;
  }
+
+button{
+    width: 200px;
+    height: 200px;
+}
+
+.menuGame{
+    align-self: center;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 600px;
+    margin: auto;
+    
+
+}
