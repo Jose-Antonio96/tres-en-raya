@@ -5,12 +5,16 @@ function close(){
 }
 let turn = 0;
 
-const btnPulsado = (e) =>{
+const btnPulsado = (boton) =>{
     turn++;
-    const btn = e.target;
-    btn.style.backgroundColor = turn %2 ? 'blue' : 'red'; 
+    const button = boton.target;
+    button.style.backgroundColor = turn %2 ? 'blue' : 'red'; 
 }
 
-document.querySelectorAll('button').forEach(
+document.querySelectorAll("button.btn").forEach(
     obj => obj.addEventListener('click', btnPulsado));
 
+
+function restart(){
+    window.location.reload(false);
+}
