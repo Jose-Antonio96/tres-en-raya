@@ -9,30 +9,39 @@
     <title>Tres en raya</title>
 </head>
 <body>
-    <div>
-        <table id="table"></table>
-    </div>
-
-    <div class="containerMode">
-            <div id="turn"></div>
-            <div id="round"></div>
-            <div><button id="btn2" onclick="restart()"> Reiniciar partida</button></div>
+    <div id="menuGame">
+        <div>
+            <div>Jugador 1:</div>
+            <div id="puntuacionJ1"></div>
+            <div><img src="./img/circulo.png" width="150px" height="150px"></div>
+        </div>
+        <div id="CointainerMode">
+            <div>Información de la partida:</div>
+            <div>
+                <div id="turn"></div>
+                <div id="rondaJugador"></div>
+                <div><button onclick="restart()"> Reiniciar partida</button></div>
+            </div>
+        </div>
+        <div>
+            <div>Jugador 2:</div>
+            <div id="puntuacionJ2"></div>
+            <div><img src="./img/cruz.png" width="250px" height="250px"></div>
         </div>
     </div>
 
-    <div class="menuGame">
-        <button class="btn"></button>
-        <button class="btn"></button>
-        <button class="btn"></button>
-        <button class="btn"></button>
-        <button class="btn"></button>
-        <button class="btn"></button>
-        <button class="btn"></button>
-        <button class="btn"></button>
-        <button class="btn"></button>
-        
-
-
+    <div id="game">
+        <div class="table">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
     </div>
 
     <script src="./code.js"></script>
