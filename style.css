@@ -36,6 +36,16 @@ button{
     border: 1px solid;
 }
 
+.mark-x{
+    background-image: url(img/cruz.png);
+    background-size: 100% 100%;
+}
+
+.mark-o{
+    background-image: url(img/circulo.png);
+    background-size: 100% 100%;
+}
+
 *{
     font-size:25px;
     overflow: hidden;
